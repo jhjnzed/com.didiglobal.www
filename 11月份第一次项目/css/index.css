@@ -1,3 +1,176 @@
+body {
+    overflow-y: scroll;
+}
+
+
+
+.headers {
+    position: fixed;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+}
+
+
+.headers h1 {
+    width: 94%;
+    margin: 0 auto;
+    height: 38px;
+    line-height: 38px;
+    /* background-color: #f38031; */
+
+}
+
+.x1 a {
+    position: relative;
+}
+
+.x1 a img {
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.x1-zyzh,
+.x1-zhsvg {
+    position: relative;
+    float: right;
+    line-height: 38px;
+}
+
+.x1-zhsvg img {
+
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.x1-zyzh {
+    width: 110px;
+    height: 38px;
+    /* background-color: aqua;   调试颜色 */
+}
+
+.en-tag,
+.ch-tag {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: initial;
+}
+
+.ch-tag {
+    margin-left: 4px;
+    color: #aba6a2;
+}
+
+
+
+.footers {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 93.4%;
+
+    margin: 34px 3.3% -4px 2.4%;
+    font-size: 13px;
+    z-index: 10;
+
+}
+
+.f2-wb-left span {
+    margin-right: 10px;
+    line-height: 20px;
+    font-family: DFPKingGothicGB-Regular, sans-serif;
+    font-size: 13px;
+
+}
+
+.f2-wb-left-kj {
+    width: 80%;
+    height: 100%;
+}
+
+.f2-wb-left {
+    height: 40px;
+    height: 44px;
+}
+
+.f2-wb-xhx {
+    background-image: url(../img/sousuo_files/xhx-fff.svg);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 26px;
+    height: 20px;
+    background-size: cover;
+    z-index: 12;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -12px;
+    background-size: 100%;
+}
+
+.f2-wb-right {
+    position: relative;
+    float: right;
+    /* line-height: 40px; */
+    width: 120px;
+    /* background-color: brown; */
+    top: -34px;
+    right: -34px;
+    line-height: 100%;
+    line-height: 1.2em;
+    letter-spacing: .44px;
+}
+
+
+.f2-wb-right img {
+    width: 20px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.f2-wb-right span {
+    font-size: 16px;
+    color: #fff;
+}
+
+.f2-wb-left a {
+    color: #fff;
+
+
+}
+
+.f2-wb-left-4 img {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+.f2-wb-left-1 a:hover,
+.f2-wb-left-2 a:hover,
+.f2-wb-left-3 a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .dd-title {
     width: 100%;
     height: 100%;
@@ -18,7 +191,10 @@
     left: 0;
     top: 0;
     position: absolute;
+
 }
+
+
 
 
 .dd-app {
@@ -52,30 +228,145 @@
     letter-spacing: 1.6px;
     font-weight: 400;
     left: 90px;
-    top: 120px;
+    top: 160px;
     display: block;
     position: absolute;
+    /* font-family: Aspira Regular, sans-serif; */
 }
 
 
 .dd-app p {
-    font-size: 26px;
+    font-size: 25px;
     letter-spacing: 1.6px;
     position: absolute;
     display: block;
     left: 90px;
-    top: 240px;
+    top: 270px;
+    font-family: Aspira Regular, sans-serif;
 }
 
+
+.dd-xz-app {
+    background-color: #f38031;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 44%;
+    left: 66%;
+    border-radius: 50%;
+}
 
 .icon-sousuo:before {
     font-size: 30px;
     position: absolute;
-    top: 50%;
-    left: 66%;
+    top: 22%;
+    left: 20%;
     color: #fff;
-    width: 50px;
-    height: 50px;
-    background-color: #f38031;
-    border-radius: 50%;
+
+
+
+}
+
+
+
+.dd-xzlj {
+    width: 454px;
+    height: 36px;
+    position: relative;
+
+    top: -200px;
+    left: 92px;
+}
+
+/* .dd-xzlj span:hover {
+    display: none;
+} */
+
+/* .icon-xiazai:before {
+    font-size: 34px;
+    line-height: 36px;
+} */
+
+/* .icon-xiazai:before, */
+.dd-xzlj h4 {
+
+    float: left;
+
+}
+
+.dd-xzlj h4 {
+    width: 400px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 10px;
+    margin-left: 32px;
+
+
+    transition: all .5s;
+}
+
+/* .dd-xzlj h4:hover {
+
+} */
+
+
+
+
+.dd-xzlj-xz-app-tb {
+    background-image: url(../img/sousuo_files/xiazai-app.svg);
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 0;
+    top: -8px;
+
+
+    background-position: 50%;
+    background-size: 75%;
+    width: 36px;
+    height: 45px;
+
+
+    transition: all .5s;
+}
+
+.dd-xzlj:hover i {
+    display: none;
+    transition: all .5s;
+}
+
+.dd-xzlj:hover .dd-xzlj-2wm {
+    display: block;
+}
+
+.dd-xzlj .dd-xzlj-2wm {
+    display: none;
+}
+
+.dd-xzlj:hover h4 {
+    position: absolute;
+    top: 0px;
+    left: -40px;
+
+}
+
+
+.dd-xzlj-2wm {
+    width: 81px;
+    height: 81px;
+    border: 1px solid;
+    position: absolute;
+    top: 34px;
+    left: 42px;
+
+}
+
+.dd-xzlj-2wm img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 7%;
+    left: 7%;
 }
