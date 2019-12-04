@@ -1,0 +1,110 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.sousuo {
+    width: 46.72%;
+    margin: 117px 478px;
+    position: relative;
+    background-color: #f5f5f5;
+    height: 488px;
+    border-left: 1px solid #d5d5d5;
+    box-sizing: border-box;
+}
+
+.sousuo-pfzt li {
+    list-style: none;
+
+
+    float: left;
+    width: 100%;
+
+}
+
+.sousuo-pfzt-1 {
+    color: #cecece;
+    font-size: 14px;
+    padding-top: 87px;
+    padding-left: 24px;
+}
+
+.sousuo-pfzt-2 {
+    color: #838383;
+    font-size: 15px;
+    padding-top: 53px;
+    padding-left: 24px;
+}
+
+.sousuo-pfzt-3 {
+    color: #888888;
+    font-size: 15px;
+    padding-top: 123px;
+    padding-left: 24px;
+}
+
+.sousuo-pfzt-4 {
+    color: #d4d4d4;
+    font-size: 13px;
+    padding-top: 55px;
+    padding-left: 24px;
+}
+
+.sousuo-kipt {
+    position: absolute;
+    width: 715px;
+    height: 62px;
+    background-color: #ffffff;
+    top: 212px;
+    left: -73px;
+
+    border-radius: 50px;
+    border: 1px solid #313131;
+}
+
+.sousuo-kipt button {
+    float: left;
+    width: 92px;
+    height: 61px;
+    line-height: 61px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.sousuo-kipt-anniu {
+    position: absolute;
+    width: 56px;
+    height: 34px;
+    background-image: url(../img/sousuo-anniu.svg);
+    background-repeat: no-repeat;
+
+    background-size: 71%;
+    top: 14px;
+    left: 24px;
+}
+
+.sousuo-kipt input {
+    float: left;
+    height: 61px;
+    box-sizing: border-box;
+    border: none;
+    width: 570px;
+    color: #bababa;
+    font-size: 18px;
+
+}
+
+
+
+.hdym a {
+    position: fixed;
+    top: 26px;
+    right: 56px;
+    width: 23px;
+    height: 23px;
+    /* background-color: blueviolet; */
+    background-image: url(../img/xx-hdym.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

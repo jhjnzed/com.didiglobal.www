@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="41px" viewBox="0 0 52 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>底部logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000730657709 0.00105428571 51.1834207 0.00105428571 51.1834207 40.6602857 0.000730657709 40.6602857"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="移动-二级页面专车-copy-2" transform="translate(-54.000000, -6949.000000)">
+            <g id="底部" transform="translate(0.000000, 5714.000000)">
+                <g id="底部logo" transform="translate(54.000000, 1235.000000)">
+                    <g id="Page-1">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M25.7500414,31.7164286 C34.5075586,31.4458286 41.4504552,24.6210857 41.550869,16.1446286 L41.550869,8.85248571 L51.1834207,8.85248571 L51.1834207,16.9142571 C50.9969379,30.0225429 39.366869,40.3650857 25.7500414,40.6602857 L25.7500414,40.6602857 C11.9072828,40.5759429 0.191144828,30.1596 0.00107586207,16.9107429 L0.00107586207,2.42134286 C-0.0204413793,0.941828571 0.965765517,-0.0210857143 2.45045517,-3.12098437e-15 L41.5472828,-3.12098437e-15 L41.5472828,8.84897143 L10.8888,8.856 C10.1034207,8.856 9.63004138,9.32691429 9.63004138,10.0895143 L9.63004138,15.9935143 C9.73404138,24.5859429 16.7952828,31.6285714 25.7500414,31.7164286 Z" id="Fill-1" fill="#ADADAD" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
