@@ -43,7 +43,7 @@ body {
     line-height: 38px;
 }
 
-.x1-zhsvg img {
+.x1-zhsvg a img {
 
     width: 26px;
     height: 26px;
@@ -59,13 +59,13 @@ body {
 .en-tag,
 .ch-tag {
     font-size: 14px;
-    color: #ffffff;
+    color: #333333;
     font-weight: initial;
 }
 
 .ch-tag {
     margin-left: 4px;
-    color: #aba6a2;
+    color: #b1b1b1;
 }
 
 
@@ -101,7 +101,7 @@ body {
 }
 
 .f2-wb-xhx {
-    background-image: url(../img/sousuo_files/xhx-fff.svg);
+    background-image: url(../upload/home-arr-down.f667c61a.svg);
     background-repeat: no-repeat;
     position: fixed;
     width: 26px;
@@ -129,18 +129,18 @@ body {
 
 
 .f2-wb-right img {
-    width: 20px;
+    width: 24px;
     height: 24px;
     vertical-align: middle;
 }
 
 .f2-wb-right span {
     font-size: 16px;
-    color: #fff;
+    color: #333333;
 }
 
 .f2-wb-left a {
-    color: #fff;
+    color: #858585;
 
 
 }
@@ -362,4 +362,515 @@ body {
     position: absolute;
     top: 7%;
     left: 7%;
+}
+
+
+
+
+
+
+/* 地球计划 */
+
+.dqy {
+    position: relative;
+    top: -160px;
+    left: 0;
+    width: 100%;
+    height: 890px;
+    background-color: #f5f6f6;
+}
+
+
+
+@keyframes runing {
+    0% {
+        transform: rotate(23.6deg) rotateX(-23.6deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotate(23.6deg) rotateX(-23.6deg) rotateY(360deg);
+    }
+}
+
+.dqy-nb {
+    position: relative;
+    top: 4%;
+    left: 50%;
+    width: 1000px;
+    height: 100%;
+    transform: translate(-50%, -48%);
+
+}
+
+.dqy-nb-box {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+
+    transform: translate(-50%, -72%);
+
+    perspective: 1200px;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    transform-style: preserve-3d;
+    animation: runing 15s linear infinite;
+}
+
+.box div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: 1px solid #d4d6e2;
+    border-radius: 50%;
+
+
+
+
+}
+
+/* .box div:nth-child(1) {} */
+
+.box div:nth-child(2) {
+    transform: rotateY(22.5deg);
+}
+
+.box div:nth-child(3) {
+    transform: rotateY(45deg);
+}
+
+.box div:nth-child(4) {
+    transform: rotateY(67.5deg);
+}
+
+.box div:nth-child(5) {
+    transform: rotateY(90deg);
+}
+
+.box div:nth-child(6) {
+    transform: rotateY(112.5deg);
+}
+
+.box div:nth-child(7) {
+    transform: rotateY(135deg);
+}
+
+.box div:nth-child(8) {
+    transform: rotateY(157.5deg);
+}
+
+.box div:nth-child(9) {
+    transform: translateY(-300px) rotateX(90deg) scale(0);
+}
+
+.box div:nth-child(10) {
+    transform: translateY(-225px) rotateX(90deg) scale(.66);
+}
+
+.box div:nth-child(11) {
+    transform: translateY(-150px) rotateX(90deg) scale(.865);
+}
+
+.box div:nth-child(12) {
+    transform: translateY(-75px) rotateX(90deg) scale(.97);
+}
+
+.box div:nth-child(13) {
+    transform: translateY(0) rotateX(90deg) scale(1);
+}
+
+.box div:nth-child(14) {
+    transform: translateY(75px) rotateX(90deg) scale(.97);
+}
+
+.box div:nth-child(15) {
+    transform: translateY(150px) rotateX(90deg) scale(.865);
+}
+
+.box div:nth-child(16) {
+    transform: translateY(225px) rotateX(90deg) scale(.66);
+}
+
+.box div:nth-child(17) {
+    transform: translateY(300px) rotateX(90deg) scale(0);
+}
+
+.but {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 680px;
+    background: #fff;
+    border-radius: 0;
+    transform: translate(-50%, -50%) rotate(23.6deg);
+}
+
+.fix-kw {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 680px;
+    height: 680px;
+    z-index: 99;
+
+    border-radius: 50%;
+    /* border-top: 20px solid #fff;
+    border-right: 20px solid #fff; */
+    /* border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent; */
+    transform: translate(-52%, -51%) rotate(68.6deg);
+}
+
+/* .foot-cx {
+    position: absolute;
+    top: 850px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 3;
+    width: 30px;
+    height: 60px;
+    background: #fff;
+}
+
+.footer-bmcf {
+    position: absolute;
+    top: 765px;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+    background: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, 0) rotateX(80deg);
+}
+
+.footer-bmcf:after {
+    content: '';
+    display: inline-block;
+    width: 300px;
+    height: 320px;
+    position: relative;
+    opacity: 0.8;
+    background: #fff;
+    top: 50%;
+    left: -0.5px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+} */
+
+
+
+
+
+
+
+/* 地球计划 出行 */
+.dqjh-cx {
+    position: relative;
+    top: 130px;
+
+    left: 194px;
+
+}
+
+.dqjh-cx-title {
+    position: relative;
+    width: 240px;
+    height: 104px;
+}
+
+.dqjh-cx-title :first-child {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: 3.6px;
+}
+
+.dqjh-cx-title :last-child {
+    font-size: 22px;
+    font-weight: 400;
+    color: #a8a8a8;
+    letter-spacing: -1.4px;
+    padding-top: 6px;
+}
+
+
+.dqjh-gj {
+    font-size: 24px;
+    color: #b7b7b7;
+}
+
+.dqjh-gj P {
+    padding-bottom: 14px;
+}
+
+
+
+
+
+
+/* 尾部栏 */
+.wbl {
+    width: 100%;
+    height: 760px;
+    border-top: 1px solid #7f7f7f;
+    background-color: #333333;
+}
+
+.wbl-kf {
+    width: 1218px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.wbl-kf-z {
+    width: 852px;
+
+    height: 100%;
+    float: left;
+}
+
+.wbl-kf-gz {
+    width: 365px;
+    height: 100%;
+    float: right;
+}
+
+
+.wbl-kf-z p {
+    font-size: 18px;
+    color: #adadad;
+    padding-bottom: 26px;
+    font-weight: 500;
+}
+
+.wbl-kf-z span {
+    float: left;
+    width: 300px;
+    color: #adadad;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.wbl-gz {
+    width: 100%;
+    float: left;
+    height: 100px;
+}
+
+.wbl-kf-gz h2,
+.wbl-kf-gz-1 {
+    font-size: 18px;
+    color: #adadad;
+    float: left;
+    padding-bottom: 20px;
+    width: 182px;
+}
+
+.wbl-kf-gz-1:hover {
+    color: #adadad;
+
+}
+
+
+
+
+.wbl-gz a {
+
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+
+
+.wbl-gz span {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+
+
+.wbl-gz-1 {
+
+    background-image: url(../img/app-关注计划/contact-ico.811be5f7.svg);
+}
+
+.wbl-gz-2 {
+    background-image: url(../img/app-关注计划/contact-ico2.d73e1dc8.svg);
+}
+
+.wbl-gz-3 {
+    background-image: url(../img/app-关注计划/contact-ico3.ce320b40.svg);
+}
+
+.wbl-gz-4 {
+    background-image: url(../img/app-关注计划//contact-ico4.0643efb7.svg);
+
+}
+
+.wbl-gz-5 {
+    background-image: url(../img/app-关注计划/contact-ico5.dade4f07.svg);
+}
+
+.wbl-gz-2wm {
+    width: 180px;
+    height: 192px;
+    background-color: #fff;
+    position: relative;
+    top: 40px;
+    left: -72px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px #aaa;
+
+    display: none;
+}
+
+.wbl-gz-2 {
+    display: block;
+}
+
+.wbl-gz-2:hover .wbl-gz-2wm {
+    display: block;
+
+}
+
+.wbl-gz-2wm img {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.wbl-gz-2wm h4 {
+    position: absolute;
+    left: 62px;
+    bottom: 24px;
+    color: #767676;
+}
+
+
+
+
+
+
+/* 下面文字加二维码 */
+
+.wbl-wzxs-2wm {
+    width: 1218px;
+    height: 194px;
+    margin: 0 auto;
+    margin-top: 58px;
+}
+
+
+
+
+
+
+.wbl-wzxx {
+    float: left;
+    margin-right: 3%;
+    color: #adadad;
+}
+
+.wbl-wzxx dt {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+
+.wbl-wzxx dd {
+    line-height: 1.5;
+    position: relative;
+    font-size: 15px;
+
+}
+
+.wbl-wzxx dd a {
+    color: #adadad;
+}
+
+
+
+
+
+
+
+
+
+.wbl-2wm {
+    float: right;
+    width: 30%;
+    margin-right: 0;
+}
+
+.wbl-2wm dt {
+    color: #adadad;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+
+
+.wbl-2wm-app {
+    float: left;
+    width: 25.2%;
+    margin-right: 12%;
+    text-align: center;
+    opacity: .3;
+    line-height: 16px;
+}
+
+.wbl-2wm-app:hover {
+    opacity: 1;
+}
+
+.wbl-2wm-app img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 0 16px;
+}
+
+.wbl-2wm-app-001 {
+    margin-right: 0%;
+}
+
+.wbl-2wm-app p {
+    font-size: 15px;
+    color: #adadad;
 }
