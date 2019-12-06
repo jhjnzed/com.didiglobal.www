@@ -21,8 +21,6 @@ body {
     margin: 0 auto;
     height: 38px;
     line-height: 38px;
-    /* background-color: #f38031; */
-
 }
 
 .x1 a {
@@ -279,16 +277,7 @@ body {
     transition: all 1s;
 }
 
-/* .dd-xzlj span:hover {
-    display: none;
-} */
 
-/* .icon-xiazai:before {
-    font-size: 34px;
-    line-height: 36px;
-} */
-
-/* .icon-xiazai:before, */
 .dd-xzlj h4 {
     float: left;
 }
@@ -311,11 +300,7 @@ body {
 
 }
 
-/* 
-.dd-xzlj:hover h4 {
 
-    /* left: -40px; */
-/* } */
 
 .dd-xzlj-xz-app-tb {
     position: absolute;
@@ -364,10 +349,369 @@ body {
     left: 7%;
 }
 
+/* 更多功能更多选择 */
+
+.dcywxz {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    top: -100px;
+    background-color: #ffffff;
+}
+
+.dcywxz-zt {
+    overflow: hidden;
+    position: relative;
+    width: 226px;
+    height: 66px;
+    top: 83px;
+    left: 166px;
+}
+
+.dcywxz-zt :first-child {
+    font-size: 27px;
+    line-height: 37px;
+    color: #333;
+    font-weight: initial;
+}
+
+.dcywxz-zt :last-child {
+    font-size: 18px;
+    line-height: 30px;
+    color: #a8a8a8;
+}
+
+/* 圆环 */
+.dcywxz-dyh {
+    width: 35.42%;
+    padding-top: 35.42%;
+    z-index: 1;
+    margin-top: 1.32%;
+    margin-left: 30.32%;
+    background-color: #fc8d58;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 1;
+}
+
+
+
+.dcywxz-an1 {
+    left: 16.61%;
+    background-image: url(../upload/left-ico.351c6aea.svg);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -32px;
+    background-size: 13px 19px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+}
+
+
+.dcywxz-an1:hover,
+.dcywxz-an2:hover {
+    border: 3px solid #343434;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+
+
+.dcywxz-an2 {
+    right: 16.61%;
+    background-image: url(../upload/right-ico.66f6eecf.svg);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -32px;
+    background-size: 13px 19px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+}
 
 
 
 
+/* 车介绍 */
+
+.dcywxz-cjs {
+    width: 15.84%;
+    position: absolute;
+    right: 19.32%;
+    top: 66.72%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.dcywxz-cjs h3 {
+    font-size: 20px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dcywxz-cjs-xx {
+    font-size: 13px;
+    line-height: 16px;
+    color: #666;
+    margin-top: 8px;
+    white-space: nowrap;
+}
+
+
+.dcywxz-cjs-tp {
+    width: 55.85%;
+    margin: 0 auto;
+    position: relative;
+    top: -474px;
+    left: 334px;
+}
+
+
+.dcywxz-cjs-tp img {
+    width: 860px;
+    height: 390px;
+}
+
+
+.dcywxz-xkzt {
+    background-image: url(../upload/xk-下载.png);
+    width: 46.4%;
+    height: 19.37%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+    left: .5%;
+    top: 70.72%;
+    z-index: 0;
+    margin: 0;
+}
+
+
+
+
+/* 多功能按钮 超炫 */
+.dgnan {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: #343434;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    animation-duration: .5s;
+    transition-duration: .5s;
+    background-image: url(../upload/more.d0a9b735.svg);
+    margin-top: -22px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 12;
+}
+
+
+.dgnan-xk {
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    /* opacity: 0;
+    text-align: left; */
+    opacity: 1;
+    left: -100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 滴滴大脑科技 */
+.ddkj {
+    position: relative;
+    top: 26px;
+    height: 910px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.ddkj-dyh {
+    width: 35.42%;
+    padding-top: 35.42%;
+    z-index: 1;
+    margin-top: -19.71%;
+    margin-left: 32.29%;
+    border: 3px solid #ececec;
+    -o-transition: 0ms all ease;
+    transition: all 0ms ease;
+    -o-transition-duration: 0ms;
+    transition-duration: 0ms;
+    height: 0;
+    padding: 35.4% 0 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 1;
+}
+
+.ddkj-title {
+    overflow: hidden;
+    position: relative;
+    width: 1212px;
+    margin: 0 auto;
+    top: 104px;
+}
+
+.ddkj-title-wz {
+    float: left;
+}
+
+.ddkj-title-wz-1 {
+    font-size: 27px;
+    line-height: 37px;
+    color: #333;
+    font-weight: 500;
+}
+
+.ddkj-title-wz-2 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #a8a8a8;
+
+}
+
+
+.dddn {
+    float: right;
+    font-size: 15px;
+}
+
+.dddn img {
+    width: 18px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+
+.dddn-logot {
+    width: 30.42%;
+    height: 11.37%;
+    background-image: url(../upload/Technology.6a58cfd3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+    left: 10.52%;
+    top: 61.72%;
+    z-index: 0;
+    margin: 0;
+    /* opacity: .3; */
+}
+
+
+
+
+
+.ddkj-xt {
+    position: relative;
+    top: 156px;
+    width: 1240.78px;
+    height: 342.54px;
+    /* margin: 0 auto; */
+    transition-duration: 0ms;
+    transform: translate3d(148.237px, 0px, 0px);
+}
+
+
+.ddkj-xt-1 {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+}
+
+.ddkj-xt-3 {
+    float: right;
+}
+
+
+.ddkj-xt-1-tp {
+    width: 93.24%;
+    margin: 0 3.38%;
+    background: rgba(0, 0, 0, 1.5);
+    transition: background 1s;
+}
+
+.ddkj-xt-1-tp:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+.ddkj-xt-1-tp img {
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    transition: opacity .5s;
+    box-shadow: 0 0px 0px #aaa;
+}
+
+.ddkj-xt-1-tp img:hover {
+    opacity: 1;
+    box-shadow: 0 22px 18px #407f9b;
+}
+
+
+
+
+
+.ddkj-xt-1-wz1 {
+    margin-top: 21px;
+    margin-left: 3.38%;
+    color: #555;
+    line-height: 35px;
+    font-size: 15px;
+    letter-spacing: 1.8px;
+}
+
+
+.ddkj-xt-1-wz2 {
+    margin-left: 3.38%;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333;
+
+
+}
 
 /* 地球计划 */
 
@@ -394,7 +738,7 @@ body {
 
 .dqy-nb {
     position: relative;
-    top: 4%;
+    top: -2%;
     left: 50%;
     width: 1000px;
     height: 100%;
@@ -525,58 +869,9 @@ body {
     width: 680px;
     height: 680px;
     z-index: 99;
-
     border-radius: 50%;
-    /* border-top: 20px solid #fff;
-    border-right: 20px solid #fff; */
-    /* border-left: 20px solid transparent;
-    border-bottom: 20px solid transparent; */
     transform: translate(-52%, -51%) rotate(68.6deg);
 }
-
-/* .foot-cx {
-    position: absolute;
-    top: 850px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 3;
-    width: 30px;
-    height: 60px;
-    background: #fff;
-}
-
-.footer-bmcf {
-    position: absolute;
-    top: 765px;
-    left: 50%;
-    width: 300px;
-    height: 300px;
-    border: solid 1px black;
-    background: #fff;
-    border-radius: 50%;
-    transform: translate(-50%, 0) rotateX(80deg);
-}
-
-.footer-bmcf:after {
-    content: '';
-    display: inline-block;
-    width: 300px;
-    height: 320px;
-    position: relative;
-    opacity: 0.8;
-    background: #fff;
-    top: 50%;
-    left: -0.5px;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-bottom-left-radius: 45%;
-    border-bottom-right-radius: 45%;
-} */
-
-
-
-
 
 
 
@@ -627,6 +922,8 @@ body {
 
 /* 尾部栏 */
 .wbl {
+    position: relative;
+    top: -156px;
     width: 100%;
     height: 760px;
     border-top: 1px solid #7f7f7f;
@@ -873,4 +1170,26 @@ body {
 .wbl-2wm-app p {
     font-size: 15px;
     color: #adadad;
+}
+
+.wbl-wzxx-cxfw {
+    height: 224px;
+    font-size: 12px;
+    line-height: 1.86;
+    overflow: hidden;
+    height: 0;
+    color: #858585;
+    transition: height .3s;
+}
+
+.wbl-wzxx-cxfw:first-child {
+    margin-top: 13px;
+}
+
+.wbl-wzxx-cxfw li:hover {
+    color: #fc9153;
+}
+
+.wbl-wzxx-cxfw-yd:hover .wbl-wzxx-cxfw {
+    height: 224px;
 }

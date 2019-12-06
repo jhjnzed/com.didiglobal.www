@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="107px" height="107px" viewBox="0 0 107 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>信息安全</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 42 0 42 54 0 54"></polygon>
+    </defs>
+    <g id="滴滴大脑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1569.000000, -3194.000000)">
+        <g id="Group-11" transform="translate(1419.000000, 3147.000000)">
+            <g id="信息安全" transform="translate(151.000000, 48.000000)">
+                <g id="数据-copy-3" stroke="#333333" stroke-width="2">
+                    <circle id="Oval-2" cx="52.5" cy="52.5" r="52.5"></circle>
+                </g>
+                <g id="Page-1" transform="translate(31.000000, 25.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M21,0 L0,6.4671423 L0,33.7502901 C0,46.6845747 21,54 21,54 C21,54 42,46.6845747 42,33.7502901 L42,6.4671423 L21,0 Z M21,2.43170585 L39.6448818,8.17357201 L39.6448818,33.7502901 C39.6448818,39.3807539 34.5454622,43.9244638 30.2685676,46.7449177 C26.4626966,49.2543731 22.5932374,50.8905961 20.9870469,51.5201358 C15.1204475,49.2886062 2.35511818,42.5887953 2.35511818,33.7502901 L2.35511818,8.17357201 L21,2.43170585 Z" id="Fill-1" fill="#333333" mask="url(#mask-2)"></path>
+                        <path d="M9,20.4545455 L32.5294118,20.4545455" id="Stroke-4" stroke="#333333" stroke-width="3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
