@@ -2,8 +2,6 @@ body {
     overflow-y: scroll;
 }
 
-
-
 .headers {
     position: fixed;
     width: 100%;
@@ -14,7 +12,6 @@ body {
     left: 0;
     top: 0;
 }
-
 
 .headers h1 {
     width: 94%;
@@ -51,7 +48,6 @@ body {
 .x1-zyzh {
     width: 110px;
     height: 38px;
-    /* background-color: aqua;   调试颜色 */
 }
 
 .en-tag,
@@ -66,18 +62,14 @@ body {
     color: #b1b1b1;
 }
 
-
-
 .footers {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 93.4%;
-
     margin: 34px 3.3% -4px 2.4%;
     font-size: 13px;
     z-index: 10;
-
 }
 
 .f2-wb-left span {
@@ -85,7 +77,6 @@ body {
     line-height: 20px;
     font-family: DFPKingGothicGB-Regular, sans-serif;
     font-size: 13px;
-
 }
 
 .f2-wb-left-kj {
@@ -115,16 +106,13 @@ body {
 .f2-wb-right {
     position: relative;
     float: right;
-    /* line-height: 40px; */
     width: 120px;
-    /* background-color: brown; */
     top: -34px;
     right: -34px;
     line-height: 100%;
     line-height: 1.2em;
     letter-spacing: .44px;
 }
-
 
 .f2-wb-right img {
     width: 24px;
@@ -139,8 +127,6 @@ body {
 
 .f2-wb-left a {
     color: #858585;
-
-
 }
 
 .f2-wb-left-4 img {
@@ -148,36 +134,20 @@ body {
     height: 15px;
 }
 
-
-
 .f2-wb-left-1 a:hover,
 .f2-wb-left-2 a:hover,
 .f2-wb-left-3 a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .dd-title {
     width: 100%;
     height: 100%;
-
 }
 
 .dd-title img {
     width: 100%;
-    height: 100%;
+    height: 560px;
     overflow: hidden;
 }
 
@@ -185,20 +155,14 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* float: left; */
     left: 0;
     top: 0;
     position: absolute;
-
 }
-
-
-
 
 .dd-app {
     position: relative;
     background: rgba(0, 0, 0, .2);
-
     -webkit-transition: all 0ms ease;
     -o-transition: 0ms all ease;
     transition: all 0ms ease;
@@ -217,9 +181,7 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #fff;
-
 }
-
 
 .dd-app h3 {
     font-size: 48px;
@@ -229,9 +191,7 @@ body {
     top: 160px;
     display: block;
     position: absolute;
-    /* font-family: Aspira Regular, sans-serif; */
 }
-
 
 .dd-app p {
     font-size: 25px;
@@ -242,7 +202,6 @@ body {
     top: 270px;
     font-family: Aspira Regular, sans-serif;
 }
-
 
 .dd-xz-app {
     background-color: #f38031;
@@ -260,29 +219,20 @@ body {
     top: 22%;
     left: 20%;
     color: #fff;
-
-
-
 }
-
-
 
 .dd-xzlj {
     position: relative;
     width: 454px;
     height: 36px;
-
     top: -200px;
     left: 92px;
     transition: all 1s;
 }
 
-
 .dd-xzlj h4 {
     float: left;
 }
-
-
 
 .dd-xzlj h4 {
     position: relative;
@@ -297,10 +247,7 @@ body {
 
 .dd-xzlj:hover {
     left: 52px;
-
 }
-
-
 
 .dd-xzlj-xz-app-tb {
     position: absolute;
@@ -322,15 +269,11 @@ body {
     display: block;
     position: absolute;
     top: 34px;
-
 }
 
 .dd-xzlj .dd-xzlj-2wm {
     display: none;
 }
-
-
-
 
 .dd-xzlj-2wm {
     width: 81px;
@@ -338,7 +281,6 @@ body {
     border: 1px solid;
     position: absolute;
     top: 34px;
-
 }
 
 .dd-xzlj-2wm img {
@@ -349,33 +291,267 @@ body {
     left: 7%;
 }
 
-
-
-
-/* 资料库 */
-
-
-.zlk {
+/* 资讯 */
+.zx {
     position: relative;
-
-    height: 1200px;
+    height: 1000px;
     width: 100%;
-    background-color: #3F51B5;
     top: 160px;
+}
 
+.zx-tp {
+    position: relative;
+    top: -544px;
+    left: 498px;
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+.zx-tp img {
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+
+.zxzt {
+    position: absolute;
+    top: 19%;
+    left: 162px;
+    width: 21.3%;
+    height: 19%;
+}
+
+.zxzt-zt {
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.zxzt-zt h3 {
+    font-size: 26px;
+    line-height: 1.31;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+    -webkit-line-clamp: 3;
+    height: auto;
+    display: -webkit-box;
+    font-weight: 400;
+}
+
+.zxzt-zt span {
+    font-size: 14px;
+    line-height: 1.61;
+    color: #9b9b9b;
+    display: block;
+    letter-spacing: .8px;
 }
 
 
 
+.zxzt-jrxx {
+    display: inline-block;
+    margin-top: 19%;
+    color: #333;
+}
+
+.zxzt-jrxx-jrtp {
+    width: 60px;
+    height: 60px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    background-image: url(../upload/inout.4615b290.svg);
+    float: left;
+}
+
+.f1 {
+    margin-top: 22px;
+    margin-left: 12px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.61;
+    display: block;
+    letter-spacing: .8px;
+    float: left;
+}
+
+.ztjs-right {
+    position: absolute;
+    top: 232px;
+    right: 206px;
+    width: 240px;
+    height: 300px;
+}
+
+.ztjs-right li {
+    margin-bottom: 12%;
+}
+
+.ztjs-right-1 {
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    color: #666;
+    letter-spacing: 1px;
+    -webkit-line-clamp: 3;
+    height: auto;
+}
 
 
+.ztjs-right-2 {
+    font-size: 12px;
+    line-height: 1.61;
+}
 
+.ztjs-right-2 span {
+    color: #b3b3b3;
+    letter-spacing: 1px;
+}
 
+.ztjs-right-2 a {
+    color: #ff7f41;
+    float: right;
+    display: inline-block;
+}
 
+/* 资料库 */
+.zlk {
+    position: relative;
+    height: 1200px;
+    width: 100%;
+    background-color: #f5f6f6;
+    top: 160px;
+}
 
+.jqan {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -20px;
+    background-size: 12px 16px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+    left: 9.77%;
+    background-image: url(../upload/left-ico.351c6aea\ \(1\).svg);
+}
 
+.jqan:hover {
+    border: 3px solid #343434;
+    cursor: pointer;
+    transition-duration: .5s;
+}
 
+.jqmb {
+    width: 2540px;
+    height: 350px;
+    position: relative;
+    top: -1000%;
+    left: 826%;
+    transition: left 8s;
+}
 
+.jqan:hover .jqmb {
+    left: -2200%;
+}
+
+.dt-1 {
+    width: 22.5%;
+    box-sizing: border-box;
+    padding: 0 1.2%;
+    position: relative;
+    flex-shrink: 0;
+    height: 100%;
+    float: left;
+}
+
+.dt-1-1 {
+    font-size: 14px;
+    letter-spacing: 2.53px;
+    line-height: 2.27;
+    color: #555;
+}
+
+.dt-1-2 {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.58;
+}
+
+/* 史上无前超级牛逼 */
+.sswqcjnb {
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-top: 56.81818182%;
+    overflow: hidden;
+    background-size: 16%;
+}
+
+.sswqcjnb img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    border: none;
+}
+
+.yddx {
+    top: 0;
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    transition: all 1s;
+}
+
+.yddx:hover {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 5px 10px 10px #4CAF50;
+}
+
+.ccsp {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: none;
+}
+
+.kbddcz:hover .ccsp {
+    display: block;
+}
+
+.ccsp video {
+    width: 100%;
+    height: 100%;
+}
+
+.kbddcz {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.kbddcz::after {
+    content: "\F101";
+    font-family: VideoJS;
+    font-size: 6em;
+    color: #fff;
+}
 
 /* 更多功能更多选择 */
 
@@ -423,8 +599,6 @@ body {
     opacity: 1;
 }
 
-
-
 .dcywxz-an1 {
     left: 16.61%;
     background-image: url(../upload/left-ico.351c6aea.svg);
@@ -441,21 +615,15 @@ body {
     z-index: 1;
 }
 
-
-
 .dcywxz-an1:hover .dcywxz-cjs-tp001 {
     opacity: 1;
     left: 58px;
-
 }
 
 .dcywxz-an2:hover .dcywxz-cjs-tp002 {
     opacity: 1;
     left: -916px;
 }
-
-
-
 
 .dcywxz-cjs-tp001 {
     opacity: 0.05;
@@ -467,8 +635,6 @@ body {
     transition: left 3s;
 }
 
-
-
 .dcywxz-cjs-tp002 {
     opacity: 0.05;
     position: relative;
@@ -479,27 +645,15 @@ body {
     transition: left 3s;
 }
 
-
 .dcywxz-cjs-tp001 img {
     width: 900px;
     height: 392px;
 }
 
-
 .dcywxz-cjs-tp002 img {
     width: 900px;
     height: 392px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .dcywxz-an1:hover,
 .dcywxz-an2:hover {
@@ -507,8 +661,6 @@ body {
     cursor: pointer;
     transition-duration: .5s;
 }
-
-
 
 .dcywxz-an2 {
     right: 16.61%;
@@ -525,9 +677,6 @@ body {
     background-position: 50%;
     z-index: 1;
 }
-
-
-
 
 /* 车介绍 */
 
@@ -554,7 +703,6 @@ body {
     white-space: nowrap;
 }
 
-
 .dcywxz-cjs-tp {
     width: 55.85%;
     margin: 0 auto;
@@ -563,12 +711,10 @@ body {
     left: 334px;
 }
 
-
 .dcywxz-cjs-tp img {
     width: 860px;
     height: 390px;
 }
-
 
 .dcywxz-xkzt {
     background-image: url(../upload/xk-下载.png);
@@ -583,9 +729,6 @@ body {
     z-index: 0;
     margin: 0;
 }
-
-
-
 
 /* 多功能按钮 超炫 */
 .dgnan {
@@ -606,9 +749,7 @@ body {
     z-index: 12;
 }
 
-
 .dgnan-xk {
-
     width: 100%;
     height: 100%;
     left: 0;
@@ -624,9 +765,7 @@ body {
     right: 276px;
     background: rgba(0, 0, 0, .8);
     display: none;
-
 }
-
 
 .dgnan-xk:hover .dgnan-xk-1 {
     display: block;
@@ -640,7 +779,6 @@ body {
     line-height: 50px;
     box-sizing: border-box;
 }
-
 
 .dgnan-xk-1-2 a {
     color: #fff;
@@ -667,20 +805,6 @@ body {
     width: 46px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 滴滴大脑科技 */
 .ddkj {
     position: relative;
@@ -689,7 +813,6 @@ body {
     width: 100%;
     background-color: #ffffff;
 }
-
 
 .ddkj-dyh {
     width: 35.42%;
@@ -736,7 +859,6 @@ body {
 
 }
 
-
 .dddn {
     float: right;
     font-size: 15px;
@@ -748,7 +870,6 @@ body {
     margin-left: 10px;
     margin-top: -4px;
 }
-
 
 .dddn-logot {
     width: 30.42%;
@@ -762,23 +883,16 @@ body {
     top: 61.72%;
     z-index: 0;
     margin: 0;
-    /* opacity: .3; */
 }
-
-
-
-
 
 .ddkj-xt {
     position: relative;
     top: 156px;
     width: 1240.78px;
     height: 342.54px;
-    /* margin: 0 auto; */
     transition-duration: 0ms;
     transform: translate3d(148.237px, 0px, 0px);
 }
-
 
 .ddkj-xt-1 {
     width: 33.3%;
@@ -789,7 +903,6 @@ body {
 .ddkj-xt-3 {
     float: right;
 }
-
 
 .ddkj-xt-1-tp {
     width: 93.24%;
@@ -815,10 +928,6 @@ body {
     box-shadow: 0 22px 18px #407f9b;
 }
 
-
-
-
-
 .ddkj-xt-1-wz1 {
     margin-top: 21px;
     margin-left: 3.38%;
@@ -828,14 +937,11 @@ body {
     letter-spacing: 1.8px;
 }
 
-
 .ddkj-xt-1-wz2 {
     margin-left: 3.38%;
     font-size: 17px;
     line-height: 27px;
     color: #333;
-
-
 }
 
 /* 地球计划 */
@@ -848,8 +954,6 @@ body {
     height: 890px;
     background-color: #f5f6f6;
 }
-
-
 
 @keyframes runing {
     0% {
@@ -868,7 +972,6 @@ body {
     width: 1000px;
     height: 100%;
     transform: translate(-50%, -48%);
-
 }
 
 .dqy-nb-box {
@@ -877,9 +980,7 @@ body {
     left: 50%;
     width: 600px;
     height: 600px;
-
     transform: translate(-50%, -72%);
-
     perspective: 1200px;
 }
 
@@ -890,7 +991,6 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-
     transform-style: preserve-3d;
     animation: runing 15s linear infinite;
 }
@@ -904,13 +1004,7 @@ body {
     color: #fff;
     border: 1px solid #d4d6e2;
     border-radius: 50%;
-
-
-
-
 }
-
-/* .box div:nth-child(1) {} */
 
 .box div:nth-child(2) {
     transform: rotateY(22.5deg);
@@ -998,13 +1092,10 @@ body {
     transform: translate(-52%, -51%) rotate(68.6deg);
 }
 
-
-
 /* 地球计划 出行 */
 .dqjh-cx {
     position: relative;
     top: 130px;
-
     left: 194px;
 
 }
@@ -1030,7 +1121,6 @@ body {
     padding-top: 6px;
 }
 
-
 .dqjh-gj {
     font-size: 24px;
     color: #b7b7b7;
@@ -1040,10 +1130,98 @@ body {
     padding-bottom: 14px;
 }
 
+/* 社会价值 */
+.shjz-tp {
+    position: absolute;
+    top: 30%;
+    margin-top: -33px;
+    left: 16%;
+    width: 66px;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    background: #d4c39e;
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+}
 
+.shjz-ztb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    position: absolute;
+    bottom: 50.37%;
+    left: 10%;
+    margin-top: -20px;
+    background-size: 12px 16px;
+    background-image: url(../upload/left-ico.351c6aea.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+}
 
+.shjz-ztb:hover {
+    border: 3px solid #343434;
+    cursor: pointer;
+    transition-duration: .5s;
+}
 
+.shjz-ytb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    position: absolute;
+    bottom: 50.37%;
+    left: 18%;
+    margin-top: -20px;
+    background-size: 12px 16px;
+    background-image: url(../upload/right-ico.66f6eecf.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+}
 
+.shjz-ytb:hover {
+    border: 3px solid #343434;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+/* 不可描述的图片 */
+
+.gbys {
+    background-color: #fff;
+}
+
+.cznxz {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 666px;
+    height: 352px;
+}
+
+.ldhl {
+    left: 75%;
+}
+
+.gzqt {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.gzqt-zt {
+    font-size: 22px;
+    line-height: 35px;
+    color: #fff;
+    width: 84%;
+    margin-left: 8%;
+}
 
 /* 尾部栏 */
 .wbl {
@@ -1076,7 +1254,6 @@ body {
     float: right;
 }
 
-
 .wbl-kf-z p {
     font-size: 18px;
     color: #adadad;
@@ -1091,15 +1268,6 @@ body {
     font-size: 15px;
     margin-bottom: 14px;
 }
-
-
-
-
-
-
-
-
-
 
 .wbl-gz {
     width: 100%;
@@ -1121,9 +1289,6 @@ body {
 
 }
 
-
-
-
 .wbl-gz a {
 
     float: left;
@@ -1133,8 +1298,6 @@ body {
 
 }
 
-
-
 .wbl-gz span {
     float: left;
     width: 50px;
@@ -1142,8 +1305,6 @@ body {
     background-repeat: no-repeat;
     background-size: 50%;
 }
-
-
 
 .wbl-gz-1 {
 
@@ -1176,7 +1337,6 @@ body {
     left: -72px;
     border-radius: 4px;
     box-shadow: 0 2px 10px #aaa;
-
     display: none;
 }
 
@@ -1204,24 +1364,13 @@ body {
     color: #767676;
 }
 
-
-
-
-
-
 /* 下面文字加二维码 */
-
 .wbl-wzxs-2wm {
     width: 1218px;
     height: 194px;
     margin: 0 auto;
     margin-top: 58px;
 }
-
-
-
-
-
 
 .wbl-wzxx {
     float: left;
@@ -1239,20 +1388,11 @@ body {
     line-height: 1.5;
     position: relative;
     font-size: 15px;
-
 }
 
 .wbl-wzxx dd a {
     color: #adadad;
 }
-
-
-
-
-
-
-
-
 
 .wbl-2wm {
     float: right;
@@ -1265,8 +1405,6 @@ body {
     font-size: 18px;
     margin-bottom: 16px;
 }
-
-
 
 .wbl-2wm-app {
     float: left;
