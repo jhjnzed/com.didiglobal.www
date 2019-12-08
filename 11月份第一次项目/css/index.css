@@ -549,8 +549,13 @@ body {
 .kbddcz::after {
     content: "\F101";
     font-family: VideoJS;
-    font-size: 6em;
+    font-size: 0em;
     color: #fff;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 22px 30px;
+    border-color: transparent transparent transparent #fff;
 }
 
 /* 更多功能更多选择 */
