@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>进入</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="新闻" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新闻媒体库-新闻1-V2" transform="translate(-886.000000, -718.000000)">
+            <g id="进入" transform="translate(886.000000, 718.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="3" cx="25" cy="25" r="23.5"></circle>
+                <polygon id="Page-1" fill="#FFFFFF" points="22.6889876 17 21 18.9802117 27.2538165 25 21 31.0197883 22.6889876 33 31 25"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
