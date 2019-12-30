@@ -387,7 +387,7 @@
 
 
 .lbz {
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 
@@ -430,4 +430,74 @@
     box-sizing: border-box;
     position: relative;
     top: 30px;
+}
+
+
+.zxbf ul {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.zxbf ul>li {
+    width: 33%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 35px 46px 0;
+}
+
+.zxbf-sp {
+    width: 100%;
+    display: block;
+}
+
+.zxbf-sp img {
+    width: 100%;
+}
+
+.zxbf-sp img:hover {
+    box-shadow: 8px 16px 14px 2px rgba(48, 48, 48, .25);
+}
+
+.mcl {
+    margin-top: 10px;
+    font-size: 18.4px;
+    color: #666;
+}
+
+
+
+.syq {
+    position: relative;
+    padding-left: 162px;
+    margin-top: 22px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.syq::before {
+    content: "";
+    width: 4px;
+    height: 39px;
+    position: absolute;
+    left: 156px;
+    top: 0;
+    background: #9b9b9b;
+}
+
+.syq h3 {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    color: #666;
+}
+
+.syq p {
+    margin-top: 8px;
+    font-size: 13px;
+    letter-spacing: .8px;
+    color: #6c6c6c;
 }
