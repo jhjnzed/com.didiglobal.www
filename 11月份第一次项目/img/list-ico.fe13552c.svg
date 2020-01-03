@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>对号</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-23.3%" y="-16.7%" width="146.7%" height="146.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.482352941   0 0 0 0 0.305882353  0 0 0 0.516785553 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="社会责任" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1160.000000, -3168.000000)">
+        <g id="Group" transform="translate(1160.000000, 2963.000000)">
+            <g id="对号" filter="url(#filter-1)" transform="translate(4.000000, 207.000000)">
+                <circle id="Oval-5" fill="#FF7B4E" cx="15" cy="15" r="15"></circle>
+                <polygon id="Page-1" fill="#FFFFFF" points="21.7098161 10 12.6769401 19.3337731 8.29009051 14.8007917 7 16.1338568 11.3868496 20.6668383 12.6768467 22 12.6770336 22 13.9671241 20.6668383 23 11.3331617"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
