@@ -359,7 +359,7 @@
 }
 
 .ltp-1 i {
-    background-image: url(../upload/下载.png);
+    background-image: url(../upload/snmlwkknnm.png);
     background-repeat: no-repeat;
     height: 38.5px;
     width: 38.5px;
@@ -500,4 +500,52 @@
     font-size: 13px;
     letter-spacing: .8px;
     color: #6c6c6c;
+}
+
+
+
+
+
+
+
+
+
+
+.wxgngddx {
+    width: 812px;
+    height: 56px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.njftpb {
+    width: 28px;
+    height: 56px;
+    float: left;
+}
+
+.njftpb img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.wxgngddx p {
+    float: left;
+    font-size: 14px;
+    outline: none;
+    color: #adadad;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.lghjfghd::before {
+    display: block;
+    content: "";
+    background-image: url(../img/beiand0289dc0.png);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-size: 100%;
+    left: 38px;
 }
